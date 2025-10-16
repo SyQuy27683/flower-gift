@@ -55,7 +55,7 @@ class EncryptedMessage {
         this.separateMessageAndArt();
         this.setupScrollManagement();
         
-        setTimeout(() => this.displayTerminal(), 2000);
+        setTimeout(() => this.displayTerminal(), 1000);
     }
 
     setupScrollManagement() {
